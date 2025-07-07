@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Saveetha Engineering College - Admission Enquiry</title>
+</head>
+<body>
+    <h1>Admission Enquiry Form</h1>
+
+    <form>
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email"required><br><br>
+
+        <label for="mobile">Mobile Number:</label><br>
+        
+        <input type="tel"required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"  required>
+        <label >Male</label><br>
+        <input type="radio" name="gender"  required>
+        <label >Female</label><br>
+        <input type="radio" name="gender" required>
+        <label >Other</label><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob" required><br><br>
+
+        <label>Department Interested:</label><br>
+        <select name="department" required>
+            <option >--Select Department--</option>
+            <option >CSE</option>
+            <option >IT</option>
+            <option >AIDS</option>
+            <option >AIML</option>
+            <option >IOT</option>
+        </select><br><br>
+
+        <label>Academic Qualification:</label><br>
+        <textarea name="qualification" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea name="address" rows="4" cols="50" required></textarea><br><br>
+
+        <label>Preferred Mode of Contact:</label><br>
+        <input type="checkbox"  name="contactMode" value="Email">
+        <label >Email</label><br>
+        <input type="checkbox" name="contactMode" value="Phone">
+        <label >Phone</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
